@@ -49,6 +49,30 @@ const Landing = () => {
             </div>
           </div>
         </section>
+
+        <section className="mt-12 w-full px-4 md:w-3/4 lg:w-1/2 text-center">
+          <h2 className="text-2xl font-semibold text-gray-800">How It Works</h2>
+          <div className="mt-6 space-y-6">
+            <div className="bg-white p-6 rounded shadow-md">
+              <h3 className="text-xl font-bold text-green-600">Step 1: Sign Up</h3>
+              <p className="text-gray-700 mt-2">
+                Create your account by providing basic information. It's quick and easy!
+              </p>
+            </div>
+            <div className="bg-white p-6 rounded shadow-md">
+              <h3 className="text-xl font-bold text-green-600">Step 2: Connect</h3>
+              <p className="text-gray-700 mt-2">
+                Link your profile with your healthcare providers and start managing your health records.
+              </p>
+            </div>
+            <div className="bg-white p-6 rounded shadow-md">
+              <h3 className="text-xl font-bold text-green-600">Step 3: Manage</h3>
+              <p className="text-gray-700 mt-2">
+                Schedule appointments, request refills, and track your health metrics all in one place.
+              </p>
+            </div>
+          </div>
+        </section>
       </main>
       <Footer />
     </div>
