@@ -32,6 +32,23 @@ const Landing = () => {
             <li className="text-gray-700">Track your health metrics and progress</li>
           </ul>
         </section>
+        <section className="mt-12 w-full px-4 md:w-3/4 lg:w-1/2 text-center">
+          <h2 className="text-2xl font-semibold text-gray-800">Testimonials</h2>
+          <div className="mt-6 space-y-6">
+            <div className="bg-white p-6 rounded shadow-md">
+              <p className="text-gray-700">"HealthHelp has completely transformed how I manage my health. It's so easy to use!"</p>
+              <p className="text-green-600 mt-2">- Jane Doe</p>
+            </div>
+            <div className="bg-white p-6 rounded shadow-md">
+              <p className="text-gray-700">"I love being able to communicate with my doctor and track my health progress in one place."</p>
+              <p className="text-green-600 mt-2">- John Smith</p>
+            </div>
+            <div className="bg-white p-6 rounded shadow-md">
+              <p className="text-gray-700">"Scheduling appointments has never been easier. Highly recommend HealthHelp!"</p>
+              <p className="text-green-600 mt-2">- Emily Johnson</p>
+            </div>
+          </div>
+        </section>
       </main>
       <Footer />
     </div>
