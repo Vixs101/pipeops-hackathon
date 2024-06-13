@@ -628,12 +628,20 @@ video {
   height: 100%;
 }
 
+.min-h-screen {
+  min-height: 100vh;
+}
+
 .w-6 {
   width: 1.5rem;
 }
 
 .w-full {
   width: 100%;
+}
+
+.flex-grow {
+  flex-grow: 1;
 }
 
 .flex-col {
