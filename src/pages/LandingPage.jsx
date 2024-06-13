@@ -37,15 +37,15 @@ const Landing = () => {
           <div className="mt-6 space-y-6">
             <div className="bg-white p-6 rounded shadow-md">
               <p className="text-gray-700">"HealthHelp has completely transformed how I manage my health. It's so easy to use!"</p>
-              <p className="text-green-600 mt-2">- Jane Doe</p>
+              <p className="text-green-600 mt-2">- Ayodeji</p>
             </div>
             <div className="bg-white p-6 rounded shadow-md">
               <p className="text-gray-700">"I love being able to communicate with my doctor and track my health progress in one place."</p>
-              <p className="text-green-600 mt-2">- John Smith</p>
+              <p className="text-green-600 mt-2">- Elijah</p>
             </div>
             <div className="bg-white p-6 rounded shadow-md">
               <p className="text-gray-700">"Scheduling appointments has never been easier. Highly recommend HealthHelp!"</p>
-              <p className="text-green-600 mt-2">- Emily Johnson</p>
+              <p className="text-green-600 mt-2">- Maureen</p>
             </div>
           </div>
         </section>
