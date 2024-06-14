@@ -1,6 +1,5 @@
-// src/pages/Landing.js
-
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
@@ -15,14 +14,15 @@ const Landing = () => {
             Your one-stop solution for managing your health information online.
           </p>
           <div className="mt-8">
-            <a
-              href="/signup"
+            <Link
+              to="/signup"
               className="bg-green-600 text-white py-2 px-4 rounded hover:bg-green-700"
             >
               Get Started
-            </a>
+            </Link>
           </div>
         </section>
+
         <section className="mt-12 w-full px-4 md:w-3/4 lg:w-1/2 text-center">
           <h2 className="text-2xl font-semibold text-gray-800">Features</h2>
           <ul className="mt-6 space-y-4">
@@ -32,19 +32,26 @@ const Landing = () => {
             <li className="text-gray-700">Track your health metrics and progress</li>
           </ul>
         </section>
+
         <section className="mt-12 w-full px-4 md:w-3/4 lg:w-1/2 text-center">
           <h2 className="text-2xl font-semibold text-gray-800">Testimonials</h2>
           <div className="mt-6 space-y-6">
             <div className="bg-white p-6 rounded shadow-md">
-              <p className="text-gray-700">"HealthHelp has completely transformed how I manage my health. It's so easy to use!"</p>
+              <p className="text-gray-700">
+                "HealthHelp has completely transformed how I manage my health. It's so easy to use!"
+              </p>
               <p className="text-green-600 mt-2">- Ayodeji</p>
             </div>
             <div className="bg-white p-6 rounded shadow-md">
-              <p className="text-gray-700">"I love being able to communicate with my doctor and track my health progress in one place."</p>
+              <p className="text-gray-700">
+                "I love being able to communicate with my doctor and track my health progress in one place."
+              </p>
               <p className="text-green-600 mt-2">- Elijah</p>
             </div>
             <div className="bg-white p-6 rounded shadow-md">
-              <p className="text-gray-700">"Scheduling appointments has never been easier. Highly recommend HealthHelp!"</p>
+              <p className="text-gray-700">
+                "Scheduling appointments has never been easier. Highly recommend HealthHelp!"
+              </p>
               <p className="text-green-600 mt-2">- Maureen</p>
             </div>
           </div>
