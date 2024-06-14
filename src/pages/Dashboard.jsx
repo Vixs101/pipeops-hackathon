@@ -1,8 +1,6 @@
-// src/pages/Dashboard.js
-
 import React from 'react';
 
-import Sidebar from '../components/Sidebar';
+import Sidebar from '../components/SideBar';
 
 const Dashboard = () => {
   return (

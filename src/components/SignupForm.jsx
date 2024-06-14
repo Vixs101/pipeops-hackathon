@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+
+
 const SignupForm = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -7,6 +9,7 @@ const SignupForm = () => {
     password: '',
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
+
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -19,9 +22,11 @@ const SignupForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    // Simulate form submission logic
     console.log(formData);
     // Show success message
     setIsSubmitted(true);
+    
 
     // Clear form fields after submission
     setFormData({
@@ -29,11 +34,6 @@ const SignupForm = () => {
       email: '',
       password: '',
     });
-
-    // Reset success message after 3 seconds
-    setTimeout(() => {
-      setIsSubmitted(false);
-    }, 3000);
   };
 
   return (
