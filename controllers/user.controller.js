@@ -4,11 +4,12 @@ const User = require("../models/userModel");
 
 // @desc    Register a new user
 const registerUser = async (req, res) => {
-    const { username, password } = req.body;
+    const { name, email, password } = req.body;
 
     try {
         const user = await User.create({
-            username,
+            name,
+            email,
             password
         });
         console.log(user);
